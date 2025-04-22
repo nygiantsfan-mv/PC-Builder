@@ -1,5 +1,5 @@
 /**
- * @author: Jake Hamilton
+ * @author: Group2
  * Date: 4/11/2025
  * Class: CSC-331-001
  * Purpose: Abstract base class representing a generic PC component
