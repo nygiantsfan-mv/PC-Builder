@@ -1,7 +1,10 @@
 /**
-* Group 2
-package com.example.pcbuilderfx;
+*@author Group 2
+*4/22/2025
+*CSC-331
 */
+package com.example.pcbuilderfx;
+
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
