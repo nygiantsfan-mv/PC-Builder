@@ -14,6 +14,7 @@ import javafx.scene.control.TextField;
     
 public class PowerSupplyController {
 
+    //Object to hold current build of the PC
     private PCBuild currentBuild;
 
     
@@ -25,24 +26,32 @@ public class PowerSupplyController {
         this.currentBuild = build;
     }
     //GUI Components
+
+    //Text Field for brand
     @FXML
     private TextField brandField;
 
+    //Text Field for efficiency rating
     @FXML
     private TextField efficiencyField;
 
+    //Text Field for model
     @FXML
     private TextField modelField;
 
+    //Text Field for modularity
     @FXML
     private TextField modularField;
 
+    //Text Field for output
     @FXML
     private TextArea outputArea;
 
+    //Text Field for price
     @FXML
     private TextField priceField;
 
+    //Text Field for wattage
     @FXML
     private TextField wattageField;
     //end of components
