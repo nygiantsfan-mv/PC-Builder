@@ -1,7 +1,7 @@
 /**
  * @author: Group2
  * Date: 4/22/2025
- * Class: CSC331
+ * Class: CSC-331
  * Purpose: Motherboard is a subclass to Component. It represents the motherboard in a computer.
  */
 package com.example.pcbuilderfx;
