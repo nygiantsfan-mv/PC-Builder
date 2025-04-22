@@ -1,7 +1,8 @@
 /**
-*@author Group 2
-*Date: 4/22/2025
-*Class: CSC-331
+* @author Group 2
+* Date: 4/22/2025
+* Class: CSC-331
+* Purpose: Handles the motherboard component input and interaction
 */
 package com.example.pcbuilderfx;
 
