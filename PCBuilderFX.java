@@ -122,9 +122,7 @@ public class PCBuilderFX extends Application {
                 buildInfo.append(currentBuild.getPowerSupply().getDetails()).append("\n");
             if(currentBuild.getMotherboard() != null)
                 buildInfo.append(currentBuild.getMotherboard().getDetails()).append("\n");
-            outputLabel.setText(buildInfo.toString());//
-
-            //outputLabel.setText("Build:\n");// + cpu + "\n" + gpu + "\n" + ram + "\n" + storage + "\n" + powerSupply + "\n" + motherboard);
+            outputLabel.setText(buildInfo.toString());
         });
 
         addComponentButton.setOnAction(e -> {
@@ -180,7 +178,10 @@ public class PCBuilderFX extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();
     }
-
+    /**
+    * method calculates the total price of the users build
+    *@return double: total is the price of all components added together
+    */
     public double calculateTotalPrice() {
         double total = 0.0;
         if (currentBuild.getCpu() != null) total += currentBuild.getCpu().getPrice();
@@ -192,6 +193,10 @@ public class PCBuilderFX extends Application {
         return total;
     }
 
+    /**
+    * method displays the user's current PCBuild object
+    * param: outputLabel label for the build
+    */
     public void displayBuild(Label outputLabel) {
         StringBuilder buildDetails = new StringBuilder("----- PC Build Summary -----\n");
         if (currentBuild.getCpu() != null)
