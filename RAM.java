@@ -1,5 +1,5 @@
 /**
- * @author: Isaiah Goddard
+ * @author: Group2
  * Date: 4/16/2025
  * Class: CSC-331-001
  * Purpose: RAM is a subclass to Component. It represents the RAM in a computer.
