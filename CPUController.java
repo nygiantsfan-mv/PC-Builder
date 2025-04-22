@@ -6,6 +6,10 @@ import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
 /**
+*@author: Group 2
+*CSC331
+*04/22/25
+*Purpose: Creates an interface for the user to enter specifications for a new CPU object.
 * Controller class for handling user interaction with the CPU in the PC Builder application.
 * This class allows the user to input CPU specifications and add a CPU to the current build.
 */
