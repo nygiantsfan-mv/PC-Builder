@@ -1,7 +1,7 @@
 /**
- * @author: Jake Hamilton
- * Date: 4/11/2025
- * Class: CSC-331-001
+ * @author: Group2
+ * Date: 4/22/2025
+ * Class: CSC-331
  * Purpose: Represents a CPU and inherits from the component class
  */
 package com.example.pcbuilderfx;
@@ -44,7 +44,7 @@ public class CPU extends Component {
     }
 
     /**
-     * Sets the scoketType of the CPU
+     * Sets the socketType of the CPU
      *
      * @param socketType
      */
