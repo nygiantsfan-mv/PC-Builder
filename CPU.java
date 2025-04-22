@@ -61,10 +61,21 @@ public class CPU extends Component {
         this.speed = speed;
     }
 
+     /**
+     * Returns price of the component
+     *
+     * @param price as a double
+     */
     public double getPrice() {
         return this.price;
     }
 
+    /**
+     * Returns a formatted string with the details of the CPU,
+     * brand, model, and price.
+     *
+     * @param string of CPU details
+     */
     public String getDetails() {
         return "CPU: " + brand + " " + model + " - " + price + " USD";
     }
