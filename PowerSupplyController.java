@@ -57,9 +57,14 @@ public class PowerSupplyController {
     //end of components
 
     /**
-    *Method to handle a button press in the PowerSupply application
-    *@param event - triggered when the button is pressed in the window
-    */
+     * Handles the event when the user adds a PowerSupply component to the current build.
+     * Retrieves input from the appropriate text fields, creates a new PowerSupply object,
+     * and adds it to the current build. Displays the PowerSupply details in the output area.
+     * 
+     * @param event The ActionEvent is triggered when the add PowerSupply button is clicked
+     * @throws NumberFormatException If the price or capacity fields contain non-numeric values
+     * @throws Exception If any other unexpected error occurs during processing
+     */
     @FXML
     void handleAddPowerSupply(ActionEvent event) {
         //Accepts input from a window populated by the user, asks for new inputs if input types don't fit
