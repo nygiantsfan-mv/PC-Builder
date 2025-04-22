@@ -1,4 +1,9 @@
 package com.example.pcbuilderfx;
+/**
+* @author group 2
+* date: 4/22/2025
+* Class: CSC-331-001
+*/
 
 public class PCBuild {
     // attributes will be used to manage user's current pc build
