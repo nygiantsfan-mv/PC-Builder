@@ -1,7 +1,7 @@
 /**
  * @author: Group2
  * Date: 4/22/2025
- * Class: CSC-331
+ * Class: CSC331
  * Purpose: Represents a CPU and inherits from the component class
  */
 package com.example.pcbuilderfx;
