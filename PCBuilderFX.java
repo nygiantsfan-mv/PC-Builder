@@ -1,8 +1,8 @@
 package com.example.pcbuilderfx; /**
  *
  * @author: Group2
- * Date: 4/16/2025
- * Class: CSC-331-001
+ * Date: 4/22/2025
+ * Class: CSC-331
  *
  * Purpose: PCBuilder is a PC building interface that allows users to view
  * available components, add selected components to a build, and calculate
