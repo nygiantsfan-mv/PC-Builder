@@ -1,7 +1,7 @@
 /**
  * @author: Group2
  * Date: 4/22/2025
- * Class: CSC331
+ * Class: CSC-331
  * Purpose: Represents storage component. Inherits from the component class
  */
 package com.example.pcbuilderfx;
