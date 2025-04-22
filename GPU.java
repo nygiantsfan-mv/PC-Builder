@@ -1,5 +1,5 @@
 /**
- * @author: Matthew Voisey
+ * @author: Group2
  * Date: 4/13/2025
  * Class: CSC-331-001
  * Purpose: GPU is a subclass to Component. It represents the GPU in a computer.
