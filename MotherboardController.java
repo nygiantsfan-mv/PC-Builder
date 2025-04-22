@@ -1,12 +1,17 @@
 /**
 * Group 2
 package com.example.pcbuilderfx;
+*/
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import javafx.scene.control.TextArea;
-
+/**
+* This is the class of the MotherBoard controller set
+* for the buttons and input of the user
+*
+*/
 public class MotherboardController {
 
     private PCBuild currentBuild;
@@ -18,7 +23,7 @@ public class MotherboardController {
     /**
     * This sets the attributes of the text fields 
     * enabling the user to enter into the field
-    /*
+    */
     //attributes
     @FXML
     private TextField brandField;
@@ -43,7 +48,7 @@ public class MotherboardController {
     * HandleAddMotherboard sets the column fields and stores the motherboard
     * in a shared PCBuild object between the components before catching 
     * exceptions
-    /*
+    */
     void handleAddMotherboard(ActionEvent event) {
         try{
             String brand = brandField.getText();
