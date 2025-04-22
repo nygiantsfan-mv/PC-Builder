@@ -1,7 +1,7 @@
 /**
 *@author Group 2
-*4/22/2025
-*CSC-331
+*Date: 4/22/2025
+*Class: CSC-331
 */
 package com.example.pcbuilderfx;
 
