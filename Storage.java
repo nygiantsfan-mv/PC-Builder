@@ -1,5 +1,5 @@
 /**
- * @author: Jake Hamilton
+ * @author: Group2
  * Date: 4/11/2025
  * Class: CSC-331-001
  * Purpose: Represents storage component. Inherits from the component class
