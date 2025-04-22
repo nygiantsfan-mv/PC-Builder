@@ -11,6 +11,9 @@ public class PowerSupply extends Component {
     private boolean modular;
     private String efficiencyRating;
 
+    /**
+    *Constructor for a new PowerSupply object
+    */
     public PowerSupply(String brand, String model, double price, int wattage, boolean modular, String efficiencyRating) {
         super(brand, model, price);
         this.wattage = wattage;
