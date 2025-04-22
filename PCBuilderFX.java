@@ -1,6 +1,6 @@
 package com.example.pcbuilderfx; /**
  *
- * @author: Jake Hamilton
+ * @author: Group2
  * Date: 4/16/2025
  * Class: CSC-331-001
  *
