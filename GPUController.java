@@ -7,7 +7,7 @@ import javafx.scene.control.TextField;
 
 /**
 *@author: Group 2
-*CSC331
+*CSC-331
 *04/22/25
 *Purpose: Creates an interface for the user to enter specifications for a new GPU object
 */
