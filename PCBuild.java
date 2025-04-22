@@ -2,7 +2,7 @@ package com.example.pcbuilderfx;
 /**
 * @author group 2
 * date: 4/22/2025
-* Class: CSC-331-001
+* Class: CSC-331
 */
 
 public class PCBuild {
