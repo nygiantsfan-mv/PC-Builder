@@ -7,7 +7,7 @@ import javafx.scene.control.TextField;
 
 /**
 *@author: Group 2
-* CSC 331
+* CSC331
 * 04/22/25
 * Purpose: Creates an interface for the user to input specifications for a new Power Supply object
 */
