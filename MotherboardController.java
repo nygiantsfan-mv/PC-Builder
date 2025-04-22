@@ -26,20 +26,45 @@ public class MotherboardController {
     */
     //attributes
     @FXML
+
+    /**
+    * text field for the brand of the motherboard
+    */
     private TextField brandField;
     @FXML
+    /**
+    * Text field for the chipset of the motherboard
+    */
     private TextField chipsetField;
     @FXML
+    /**
+    * Text field for the formFactor of the motherboard
+    */
     private TextField formFactorField;
     @FXML
+    /**
+    * Text field for the model of the motherboard
+    */
     private TextField modelField;
     @FXML
+    /**
+    * Text field for the price of the motherboard
+    */
     private TextField priceField;
     @FXML
+    /**
+    * Text field for the socketType of the motherboard
+    */
     private TextField socketTypeField;
     @FXML
+    /**
+    * Text field for the supportedRAMType
+    */
     private TextField supportedRAMTypeField;
     @FXML
+    /**
+    * Text field for the details of the motherboard
+    */
     private TextArea motherboardDetails;
 
     @FXML
