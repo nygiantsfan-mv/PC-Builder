@@ -5,13 +5,26 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
+/**
+*@author: Group 2
+* CSC 331
+* 04/22/25
+* Purpose: Creates an interface for the user to input specifications for a new Power Supply object
+*/
+    
 public class PowerSupplyController {
 
     private PCBuild currentBuild;
 
+    
+    /**
+    *Sets a new build for the PCBuild object
+    *@param build - new build to be set for the PCBuild
+    */
     public void setBuild(PCBuild build){
         this.currentBuild = build;
     }
+    //GUI Components
     @FXML
     private TextField brandField;
 
@@ -32,9 +45,15 @@ public class PowerSupplyController {
 
     @FXML
     private TextField wattageField;
+    //end of components
 
+    /**
+    *Method to handle a button press in the PowerSupply application
+    *@param event - triggered when the button is pressed in the window
+    */
     @FXML
     void handleAddPowerSupply(ActionEvent event) {
+        //Accepts input from a window populated by the user, asks for new inputs if input types don't fit
         try{
             String brand = brandField.getText();
             String model = modelField.getText();
