@@ -3,6 +3,9 @@ package com.example.pcbuilderfx;
 * @author group 2
 * date: 4/22/2025
 * Class: CSC-331
+* Purpose: Class is built as a helper. It maintains an object of each class of the components.
+* When the user updates a component, the program overwrites the attribute. This allows it to be updated
+* without the need to delete the previous object. 
 */
 
 public class PCBuild {
