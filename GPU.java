@@ -11,6 +11,9 @@ public class GPU extends Component{
     private double clockSpeed;
     private int powerConsumption;
 
+    /**
+    *Constructor for a new GPU object
+    */
     public GPU(String brand, String model, double price, int vRAMSize, double clockSpeed, int powerConsumption){
 
         super(brand, model, price);
