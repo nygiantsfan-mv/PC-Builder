@@ -14,6 +14,11 @@ public class MotherboardController {
     public void setBuild(PCBuild newBuild){
         this.currentBuild = newBuild;
     }
+
+    /**
+    * This sets the attributes of the text fields 
+    * enabling the user to enter into the field
+    /*
     //attributes
     @FXML
     private TextField brandField;
@@ -33,6 +38,12 @@ public class MotherboardController {
     private TextArea motherboardDetails;
 
     @FXML
+
+    /**
+    * HandleAddMotherboard sets the column fields and stores the motherboard
+    * in a shared PCBuild object between the components before catching 
+    * exceptions
+    /*
     void handleAddMotherboard(ActionEvent event) {
         try{
             String brand = brandField.getText();
