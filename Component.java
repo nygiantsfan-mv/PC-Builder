@@ -1,7 +1,7 @@
 /**
  * @author: Group2
  * Date: 4/22/2025
- * Class: CSC-331
+ * Class: CSC331
  * Purpose: Abstract base class representing a generic PC component
  * Contains common fields brand, model, and price which all components share
  */
